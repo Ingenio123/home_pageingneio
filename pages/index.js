@@ -15,6 +15,11 @@ export default function Home() {
         <title>Home | Jhon C</title>
         <meta name="description" content="Site Web Jhon C" />
         <link rel="icon" href="/favicon.ico" />
+        <script
+          data-ad-client="ca-pub-9485069881520994"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        ></script>
       </Head>
       <Hero />
       <ArticleMedium />
