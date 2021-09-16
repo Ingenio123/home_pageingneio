@@ -62,12 +62,7 @@ export default function Home() {
             </div>
           ))}
         </div>
-        <div className="flex justify-between mt-32 mb-2">
-          <h3 className="text-4xl font-semibold uppercase">Music</h3>
-          <button className="px-4 text-white bg-blue-500 rounded-lg hover:bg-blue-600">
-            See All
-          </button>
-        </div>
+
         <Music />
 
         <Deporte />

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import Content from "./Content";
 export default function Index() {
   return (
     <>
@@ -20,6 +20,7 @@ export default function Index() {
         Logos de Marcas Aupsticiantes si desean se va poner aqui en este
         recuadro
       </ContentPublicidad>
+      <Content />
     </>
   );
 }

@@ -4,8 +4,6 @@ const CatogoriesSchema = new Schema(
   {
     name: {
       type: String,
-      required: true,
-      trim: true,
     },
   },
   {
@@ -13,5 +11,5 @@ const CatogoriesSchema = new Schema(
   }
 );
 
-let Dataset = models.categories || model("categories", CatogoriesSchema);
+let Dataset = models.Categoria || model("Categoria", CatogoriesSchema);
 export default Dataset;

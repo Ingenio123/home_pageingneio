@@ -1,15 +1,18 @@
 import { Schema, models, model } from "mongoose";
 
 const Contenido = new Schema({
-  name_content: {
+  title_content: {
     type: String,
   },
-  Sub_Content: {
+  subtitle_content: {
     type: String,
   },
-  Category: {
+  Content_text: {
+    type: String,
+  },
+  category: {
     type: Schema.Types.ObjectId,
-    ref: "categories",
+    ref: "Categoria",
   },
   Image_Url: {
     type: String,

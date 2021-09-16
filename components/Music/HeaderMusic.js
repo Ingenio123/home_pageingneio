@@ -2,9 +2,11 @@ import styled from "styled-components";
 
 export default function HeaderMusic() {
   return (
-    <Header>
-      <h2>hp;p</h2>
-      <ContentGlassMorphis></ContentGlassMorphis>
+    <Header className="">
+      <div className="container absolute top-0 left-5">
+        <ContentGlassMorphis></ContentGlassMorphis>
+      </div>
+      {/* <ContainerMorphism></ContainerMorphism> */}
     </Header>
   );
 }
@@ -12,7 +14,7 @@ const Header = styled.header`
   width: 100%;
   height: 98vh;
   position: relative;
-  background: rgb(255, 106, 106);
+
   background: linear-gradient(
     121deg,
     rgba(255, 106, 106, 1) 0%,
@@ -22,12 +24,11 @@ const Header = styled.header`
 `;
 
 const ContentGlassMorphis = styled.section`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9;
+  width: 30%;
+  height: 400px;
   backdrop-filter: blur(25px) saturate(200%);
   -webkit-backdrop-filter: blur(25px) saturate(200%);
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.3);
+
+  border-radius: 4px;
 `;
